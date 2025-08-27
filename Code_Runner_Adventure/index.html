@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Code Runner: Debugging Adventure (Chaos Edition)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="game"></canvas>
+    <div id="ui">
+      <div id="left-ui">
+        <div id="score">Score: 0</div>
+        <div id="hint">Space / ↑ = Jump • Tap to jump • R = Restart</div>
+      </div>
+      <div id="right-ui">
+        <div id="chaos-ind">Chaos: OFF</div>
+        <div id="high">High: 0</div>
+      </div>
+    </div>
+
+    <div id="log">
+      <strong>Chaos Log</strong>
+      <div id="log-list"></div>
+    </div>
+
+    <div id="overlay" class="hidden">
+      <div id="overlay-card">
+        <h1 id="overlay-title">Debugging Failed!</h1>
+        <p id="overlay-msg"></p>
+        <p id="overlay-score"></p>
+        <button id="restart-btn">Refactor (R)</button>
+      </div>
+    </div>
+
+    <!-- fake updates modal -->
+    <div id="fake-update" class="hidden">
+      <div class="update-card">
+        <h2>Windows Update</h2>
+        <p>Installing important updates... Please do not turn off your computer.</p>
+        <div class="progress"><div class="progbar"></div></div>
+      </div>              
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
