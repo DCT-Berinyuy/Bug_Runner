@@ -1,8 +1,8 @@
-# Code Runner: Debugging Adventure (Chaos Edition)
+# Bug Runner: Debugging Adventure (Chaos Edition)
 
 ## 🚀 The Project
 
-**Code Runner** is a whimsical, intentionally chaotic endless runner game created for a hackathon. The theme of the hackathon was to "make the weirdest thing you can think of that nobody asked for but everyone will remember," and this game is our answer to that challenge.
+**Bug Runner** is a whimsical, intentionally chaotic endless runner game created for a hackathon. The theme of the hackathon was to "make the weirdest thing you can think of that nobody asked for but everyone will remember," and this game is our answer to that challenge.
 
 The game puts you in the shoes of a "Coder" navigating a perilous digital world, where you must dodge bugs, collect code snippets, and survive the onslaught of chaotic, random events. It's a game that's designed to be as funny and unpredictable as it is challenging.
 
